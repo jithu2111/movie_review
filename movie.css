@@ -1,0 +1,206 @@
+/* Base styles */
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 8pt;
+    margin: 0;
+    padding: 0;
+    background-image: url(Assets_folder/background.png);
+}
+
+/* Top banner */
+#banner {
+    background-image: url(Assets_folder/banner.png);
+    background-repeat: repeat-x;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner h1 {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+/* Main container */
+#container {
+    width: 800px;
+    margin: 0 auto;
+    border: 4px solid gray;
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Main content (left side - 550px) */
+#main-content {
+    width: 550px;
+    float: left;
+}
+
+/* Rating header */
+#rating-header {
+    background-image: url(Assets_folder/rottenbackground.png);
+    background-repeat: repeat-x;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    height: 83px;
+}
+
+#rating-header img {
+    vertical-align: middle;
+}
+
+#rating-number {
+    font-size: 48pt;
+    font-weight: bold;
+    color: #2d2d2d;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Reviews section */
+#reviews {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.review-column {
+    width: 47%;
+    float: left;
+}
+
+.review-column:first-child {
+    margin-right: 2%;
+}
+
+.review-column:last-child {
+    margin-left: 2%;
+}
+
+.review-box {
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.review-icon {
+    float: left;
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+}
+
+.review-quote {
+    font-weight: bold;
+    font-size: 8pt;
+    margin: 0 0 5px 0;
+}
+
+.review-stars {
+    margin: 5px 0;
+    clear: left;
+}
+
+.review-stars img {
+    width: 32px;
+    height: 32px;
+}
+
+.review-critic {
+    font-style: italic;
+    font-size: 8pt;
+    margin: 5px 0 0 0;
+}
+
+/* Sidebar (right side - 250px) */
+#sidebar {
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+}
+
+#sidebar h2 {
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #000;
+}
+
+#sidebar dl {
+    margin: 5px 0;
+}
+
+#sidebar dt {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#sidebar dd {
+    margin: 0 0 5px 15px;
+}
+
+#sidebar p {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+
+#social-icons {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#social-icons img {
+    margin: 0 5px;
+}
+
+#watch-trailer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#watch-trailer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Bottom bar */
+#bottom-bar {
+    background-color: #A2B964;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+    color: white;
+    font-weight: bold;
+}
+
+#bottom-bar p {
+    margin: 0;
+}
+
+/* Validators */
+#validators {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#validators img {
+    display: block;
+    margin-top: 5px;
+}
