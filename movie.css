@@ -12,7 +12,14 @@ body {
 #banner {
     background-image: url(Assets_folder/banner-bg.png);
     text-align: center;
-    /* Removed fixed height to let image dictate size, or keep height: 50px if needed */
+    height: 50px;
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* MOVIE TITLE */
