@@ -31,7 +31,7 @@ h1 {
     /* Match the dark strip style from reference */
     background-color: #333;
     color: white;
-    margin: 0;
+    margin-top: 10px;
     padding: 10px;
     text-shadow: 1px 1px 1px #000;
 }
@@ -39,7 +39,7 @@ h1 {
 /* MAIN LAYOUT CONTAINER */
 #container {
     width: 1000px;
-    margin: 20px auto; /* Added top margin */
+    margin: 150px auto; /* Added top margin */
     display: flex;
     align-items: flex-start;
     gap: 15px;
