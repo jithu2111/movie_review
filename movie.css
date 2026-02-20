@@ -144,7 +144,7 @@ h1 {
 /* REVIEW SECTION */
 #review-section {
     background-color: black;
-    background-image: url(Assets_folder/background.png);
+    background-image: url("Assets_folder/background.png");
     flex: 1;
     display: flex;
     gap: 15px;
