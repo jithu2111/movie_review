@@ -96,8 +96,8 @@ h1 {
 
 /* POSTER SECTION - LEFT COLUMN */
 #poster-section {
-    flex: 0 0 550px;
-    width: 550px;
+    flex: 0 0 450px;
+    width: 450px;
     padding: 10px;
     border-right: 2px solid #ccc;
     display: flex;
@@ -111,18 +111,32 @@ h1 {
 .poster-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    gap: 12px;
     width: 100%;
     max-width: 100%;
 }
 
+.poster-item {
+    text-align: center;
+    overflow: hidden;
+}
+
 .poster-grid img {
     width: 100%;
-    height: auto;
-    border: 1px solid #777;
-    border-radius: 3px;
+    height: 180px;
+    min-width: 100%;
+    border: none;
+    border-radius: 8px;
     display: block;
     object-fit: cover;
+    object-position: center;
+}
+
+.poster-label {
+    font-size: 0.6rem;
+    margin: 5px 0 0 0;
+    color: #333;
+    font-weight: normal;
 }
 
 /* REVIEW SECTION */
